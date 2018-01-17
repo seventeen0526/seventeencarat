@@ -132,7 +132,9 @@ header {
 }
 
 .header-content {
-  padding: 50px 48px 0;
+  padding: 50px 70px 0;
+  font-size: 40px;
+  color: #778899;
 }
 
 .header-r-box {
@@ -155,7 +157,7 @@ header {
 
 .header-shop {
   position: absolute;
-  top: -2px;
+  top: 2px;
   right: 60px;
   z-index: 0;
 }
@@ -163,182 +165,6 @@ header {
   cursor:pointer;
 }
 
-.menu-btn {
-  font-size: 1.2rem;
-  font-family: "Calibri Light";
-}
-
-.menu-box {
-  position: fixed;
-  width: 214px;
-  height: 100vh;
-  background: #EEEEEF;
-  right: -214px;
-  top: 0;
-  padding: 42px 18px 0 18px;
-  font-weight: 500;
-}
-
-.menu-box > .close-btn {
-  position: absolute;
-  right: 20px;
-  top: 24px;
-  font-family: "Calibri Light";
-}
-
-.menu-box .separator {
-  margin: 0;
-}
-
-.menu-box a {
-  font-size: 16px;
-}
-
-.m-item {
-  height: 26px;
-  overflow: hidden;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -webkit-box;
-  display: -ms-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  padding: 3px 0;
-}
-
-.m-item:nth-child(3) {
-  padding: 0;
-  display: block;
-}
-
-.social-icon {
-  position: absolute;
-  bottom: 36px;
-  left: 50%;
-  margin-left: -79px;
-}
-
-.social-icon a {
-  margin: 0 5px;
-  font-size: 1rem;
-}
-
-.more-tag, .more-tag2 {
-  height: 26px;
-  padding: 0;
-  line-height: 26px;
-}
-
-.more-tag2 {
-  display: none;
-}
-
-.child-list a {
-  color: #888888;
-}
-
-.child-list li {
-  padding: 6px 0;
-  font-family: "Calibri Light";
-}
-
-.rwd-login-box {
-  margin-top: 34px;
-}
-
-.show-menu .menu-box {
-  right: 0;
-}
-
-.header-nav {
-  position: fixed;
-  top: 162px;
-  right: 44px;
-}
-
-.header-nav a {
-  display: block;
-  margin-bottom: 9px;
-}
-
-.nav-icon {
-  position: relative;
-}
-
-.nav-icon-num {
-  position: absolute;
-  font-size: 13px;
-  left: 20%;
-  display: inline-block;
-  width: 16px;
-  text-align: center;
-}
-
-.bag-num {
-  top: 30%;
-}
-
-.wish-num {
-  top: -15%;
-}
-
-.rwd-item, .rwd-login-box, .rwd-s {
-  display: none;
-}
-
-#slides, #slides4 {
-  min-height: 0;
-  position: relative;
-  z-index: 4;
-}
-
-#slides div, #slides4 div {
-  transition-duration: 0s;
-  width: 100%;
-}
-
-#slides div img, #slides4 div img {
-  width: 100%;
-}
-
-#slides2 {
-  min-height: 0;
-  z-index: 4;
-  margin: 0 auto;
-  width: 1007px;
-}
-
-#slides2 div {
-  transition-duration: 0s;
-  padding: 0 5px;
-}
-
-#slides3, .ps-2 {
-  display: none;
-}
-
-.slider-control {
-  padding: 0 48px;
-  position: absolute;
-  top: 45%;
-  z-index: 200;
-  width: 100%;
-}
-
-.slider-control2 {
-  padding: 0 48px;
-  position: absolute;
-  top: 45%;
-  left: 0;
-  z-index: 200;
-  width: 100%;
-}
 
 .theme {
   position: relative;
@@ -350,9 +176,10 @@ header {
   margin: 0 auto;
 }
 
+
 .footer-content {
-  height: 56px;
-  background: #DCDCDC;
+  height: 48px;
+  background: #B0C4DE;
   padding: 0 48px;
   font-family: "Calibri Light";
 }
@@ -368,26 +195,6 @@ header {
   padding-top:1px;
 }
 
-.newsletter-box input.email {
-  width: 270px;
-  text-indent: 10px;
-}
-
-.newsletter-submit {
-  background: #000;
-  color: #fff;
-  font-size: 0.8rem;
-  height: 24px;
-  margin-left: 6px;
-  width: 150px;
-  border: 0;
-  padding: 0;
-  font-family: "Calibri Light";
-}
-
-.newsletter-submit:hover {
-  opacity: 0.8;
-}
 
 .footer-link {
   padding: 0 15px;
